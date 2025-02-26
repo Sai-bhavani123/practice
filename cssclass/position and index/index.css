@@ -7,18 +7,30 @@
     border-radius: 20px;
     margin: 0;
     left:300px;
-    z-index: -1;
+    /* z-index: -1; */
 
 }
+#images{
+    position: relative;
+    left: 0px;
+}
+#images > #img-2{
+    position: relative;
+    right: 15rem;
+    bottom: 4rem;
+    z-index: 1;
+
+}
+
 #img-2 > img{
     width:400px;
     height: 300px;
     position: relative;
-    left:50px;
+    right: 30px;
     border-radius: 20px;
     margin: 0;
-    bottom: 35px;
-    z-index: 1;
+    bottom: 20px;
+
 
 }
 #img-text{
@@ -54,7 +66,10 @@ ul > li{
 li::marker{
     color: hsl(348, 92%, 48%);
 }
-
+#images2>#img-2{
+    position: relative;
+    left: 8rem;
+}
 #img-2 >img{
     width:400px;
     height: 300px;
@@ -65,6 +80,11 @@ li::marker{
     left:300px;
     z-index: -1;
 
+}
+#img-3{
+    position: relative;
+    left: 16rem;
+    bottom: 4rem;
 }
 #img-3> img{
     width:400px;
